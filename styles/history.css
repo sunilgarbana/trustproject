@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header, footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  flex-wrap: wrap;
+}
+
+.navbar .box {
+  margin: 0.5em;
+}
+
+.navbar .nav {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.navbar .nav:hover,
+.navbar .nav.active-nav {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+}
+
+.btn-accent {
+  background-color: #28a745;
+}
+
+main {
+  padding: 2em;
+}
+
+.history-page {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .history-page h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    .history-page h3 {
+      margin-top: 2rem;
+      color: #007bff;
+    }
+
+    .history-page p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    

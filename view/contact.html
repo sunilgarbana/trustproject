@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Subhash Chandra Bose Charitable Trust</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="/styles/navbar.css" />
+</head>
+
+<body>
+  <style>
+    .contact-page {
+      padding: 2rem;
+      background: white;
+      max-width: 800px;
+      margin: 2rem auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-page h2 {
+      color: #333;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+  </style>
+  <script src="/scripts/script.js"></script>
+
+  <header class="site-header">
+    <div class="branding">
+      <img src="/images/chandrabose.png" alt="Logo" class="logo" />
+      <div class="titles">
+        <h1 class="main-title" style="color: white;">SUBHASH CHANDRA BOSE CHARITABLE TRUST</h1>
+      </div>
+    </div>
+    <div class="header-nav">
+      <a href="#" class="btn btn-primary">Online Donation</a>
+      <a href="#" class="btn btn-accent">Throw Bank</a>
+    </div>
+  </header>
+  <nav class="navbar">
+    <div class="box"> <a href="home.html" class="nav">HOME</a></div>
+    <div class="box"><a href="history.html" class="nav">HISTORY</a></div>
+    <div class="box"><a href="gallery.html" class="nav">GALLERY</a></div>
+    <div class="box"><a href="contact.html" class="nav">CONTACT US</a></div>
+  </nav>
+
+  <!-- Mobile Nav Toggle -->
+  <div class="mobile-nav-toggle" onclick="toggleMobileMenu()">☰</div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="home.html">HOME</a>
+    <a href="history.html">HISTORY</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="contact.html">CONTACT US</a>
+  </div>
+  <main class="contact-page">
+    <h2>Contact Us</h2>
+    <p>Feel free to get in touch with us. We're happy to assist you!</p>
+
+    <div class="contact-info">
+      <p><strong>📞 Phone 1:</strong> +91 9493338916</p>
+
+      <p><strong>✉️ Email:</strong> <a href="mailto:kalyanvandematharam@gmail.com">kalyanvandematharam@gmail.com</a></p>
+      <p><strong>📍Address:</strong> Subhash Chandra Bose charitable Trust, Sri Sai Lakshmi nilayam
+        Trinadh street
+        6th building of the street, Opposite Trends, railway station road, Rajahmundry</p>
+    </div>
+  </main>
+
+  <footer>
+    <h2>© 2025 Subhash Chandra Bose Trust | Powered by Lokesh</h2>
+  </footer>
+  <!-- Modal -->
+  <div id="donationModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 style="color:rgb(36, 36, 34);">Donate via Phone</h2>
+      <h3>online payment: <strong>9493338916</strong></h3>
+      <p style="color:  green;">We appreciate your support!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
