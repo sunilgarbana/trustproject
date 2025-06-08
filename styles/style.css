@@ -29,12 +29,12 @@ body {
 }
 
 .logo {
-  height: 6rem; /* Reduced from 15rem */
+  height: 16rem; /* Reduced from 15rem */
   margin-right: 16px;
 }
 .logo img {
-  width: 5rem;
-  height: 5rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 /* Title Styling */
@@ -48,7 +48,7 @@ body {
 .titles .main-title {
   font-size: 1.5rem; /* Reduced from 3rem */
   font-weight: bold;
-  color: #10227a;
+  color:white;
 }
 
 /* Header Buttons */
@@ -59,7 +59,7 @@ body {
 }
 
 .btn {
-  padding: 8px 16px;
+  padding: 5px 10px;
   font-size: 1rem; /* Reduced from 2rem */
   text-decoration: none;
   border-radius: 6px;
@@ -116,9 +116,7 @@ body {
 }
 
 .box:hover .nav {
-  border: 1px solid white;
-  border-radius: 4px;
-  padding: 4px;
+  color: white;
 }
 
 /* Main Background Image Area */
@@ -204,6 +202,7 @@ h1 {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: left;
 }
 
 .sizing {
@@ -247,6 +246,7 @@ footer {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   will-change: opacity, transform;
   cursor: pointer;
+  margin-right: 50px;
 }
 
 .landscape-img.in-view {
@@ -324,7 +324,7 @@ footer {
   }
 }
 .animated-img {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
@@ -497,14 +497,18 @@ footer {
   }
 
   .titles .main-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .logo {
     height: 4rem;
   }
-
+    .contact-info p {
+      font-size: 1px;
+      line-height: 1.6;
+    }
+      
 }
 .modal {
   position: fixed;

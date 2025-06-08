@@ -15,28 +15,7 @@ body {
   max-width: 100px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #444;
-  flex-wrap: wrap;
-}
 
-.navbar .box {
-  margin: 0.5em;
-}
-
-.navbar .nav {
-  color: white;
-  text-decoration: none;
-  padding: 0.5em 1em;
-}
-
-.navbar .nav:hover,
-.navbar .nav.active-nav {
-  background-color: #666;
-  border-radius: 5px;
-}
 
 .btn {
   padding: 0.5em 1em;
